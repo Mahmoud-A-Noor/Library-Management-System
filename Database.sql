@@ -222,7 +222,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (4,'admin','noorman@man.com','01094188363','2021-11-06 17:05:16','390725624705324',1,7,'admin');
+INSERT INTO `employee` VALUES (4,'admin','mail@domain.com','01234543634','2021-11-06 17:05:16','390725624705324',1,7,'admin');
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -270,7 +270,7 @@ CREATE TABLE `employee_permissions` (
 
 LOCK TABLES `employee_permissions` WRITE;
 /*!40000 ALTER TABLE `employee_permissions` DISABLE KEYS */;
-INSERT INTO `employee_permissions` VALUES (2,'noorman',1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
+INSERT INTO `employee_permissions` VALUES (2,'admin',1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
 /*!40000 ALTER TABLE `employee_permissions` ENABLE KEYS */;
 UNLOCK TABLES;
 
