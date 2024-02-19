@@ -33,6 +33,7 @@ class Main(QMainWindow,MainUi):
         self.Show_History()
         self.Retrieve_ToDay_Work()
         self.Show_Employees()
+        self.Theme_Handler()
         self.dateEdit_6.setDate(QDate(datetime.date.today().year, datetime.date.today().month, datetime.date.today().day))
         self.dateEdit_7.setDate(QDate(datetime.date.today().year, datetime.date.today().month, datetime.date.today().day))
         self.get_dashboard_data()
@@ -45,6 +46,62 @@ class Main(QMainWindow,MainUi):
         self.db = MySQLdb.connect(user="root",password="",host="localhost",db="library")
         self.cur = self.db.cursor()
 
+
+    def Apply_AMOLED_Style(self):
+        style = open('./themes/AMOLED.qss' , 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_Aqua_Style(self):
+        style = open('./themes/Aqua.qss' , 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_ConsoleStyle_Style(self):
+        style = open('./themes/ConsoleStyle.qss' , 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_ElegantDark_Style(self):
+        style = open('./themes/ElegantDark.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_MacOS_Style(self):
+        style = open('./themes/MacOS.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_ManjaroMix_Style(self):
+        style = open('./themes/ManjaroMix.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_MaterialDark_Style(self):
+        style = open('./themes/MaterialDark.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_NeonButtons_Style(self):
+        style = open('./themes/NeonButtons.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Apply_Ubuntu_Style(self):
+        style = open('./themes/Ubuntu.qss', 'r')
+        style = style.read()
+        self.setStyleSheet(style)
+
+    def Theme_Handler(self):
+        self.actionAMOLED.triggered.connect(lambda :self.Apply_AMOLED_Style())
+        self.actionAqua.triggered.connect(lambda :self.Apply_Aqua_Style())
+        self.actionConsoleStyle.triggered.connect(lambda :self.Apply_ConsoleStyle_Style())
+        self.actionElegantDark.triggered.connect(lambda :self.Apply_ElegantDark_Style())
+        self.actionMacOS.triggered.connect(lambda :self.Apply_MacOS_Style())
+        self.actionManjaroMix.triggered.connect(lambda :self.Apply_ManjaroMix_Style())
+        self.actionMaterialDark.triggered.connect(lambda :self.Apply_MaterialDark_Style())
+        self.actionNeonButtons.triggered.connect(lambda :self.Apply_NeonButtons_Style())
+        self.actionUbuntu.triggered.connect(lambda :self.Apply_Ubuntu_Style())
 
     def Handle_Buttons(self):
         self.pushButton.clicked.connect(self.Open_Daily_Movements_Tab)
@@ -479,7 +536,6 @@ class Main(QMainWindow,MainUi):
         self.Show_History()
 
     def Edit_Client(self):
-
         name = self.lineEdit_15.text()
         mail = self.lineEdit_16.text()
         phone = self.lineEdit_17.text()
@@ -1021,6 +1077,16 @@ class Main(QMainWindow,MainUi):
 
 ##################################################
 #####
+    
+    def update_icons(self, selected_index):
+        print(selected_index)
+        self.pushButton.setIcon(QIcon("icons/Today.png" if selected_index != 2 else "icons/Today_selected.png"))
+        self.pushButton_2.setIcon(QIcon("icons/Books.png" if selected_index != 3 else "icons/Books_selected.png"))
+        self.pushButton_3.setIcon(QIcon("icons/Clients.png" if selected_index != 4 else "icons/Clients_selected.png"))
+        self.pushButton_4.setIcon(QIcon("icons/Dashboard.png" if selected_index != 5 else "icons/Dashboard_selected.png"))
+        self.pushButton_5.setIcon(QIcon("icons/History.png" if selected_index != 6 else "icons/History_selected.png"))
+        self.pushButton_6.setIcon(QIcon("icons/Reports.png" if selected_index != 7 else "icons/Reports_selected.png"))
+        self.pushButton_7.setIcon(QIcon("icons/Settings.png" if selected_index != 8 else "icons/Settings_selected.png"))
 
     def Open_Login_Tab(self):
         self.tabWidget.setCurrentIndex(0)
@@ -1032,35 +1098,42 @@ class Main(QMainWindow,MainUi):
 
     def Open_Daily_Movements_Tab(self):
         self.tabWidget.setCurrentIndex(2)
+        self.update_icons(2)
 
 
     def Open_Books_Tab(self):
         self.tabWidget.setCurrentIndex(3)
         self.tabWidget_2.setCurrentIndex(0)
+        self.update_icons(3)
 
 
     def Open_Clients_Tab(self):
         self.tabWidget.setCurrentIndex(4)
         self.tabWidget_3.setCurrentIndex(0)
+        self.update_icons(4)
 
 
     def Open_Dashboard_Tab(self):
         self.get_dashboard_data()
         self.tabWidget.setCurrentIndex(5)
+        self.update_icons(7)
 
 
     def Open_History_Tab(self):
         self.tabWidget.setCurrentIndex(6)
+        self.update_icons(5)
 
 
     def Open_Report_Tab(self):
         self.tabWidget.setCurrentIndex(7)
         self.tabWidget_5.setCurrentIndex(0)
+        self.update_icons(6)
 
 
     def Open_Settings_Tab(self):
         self.tabWidget.setCurrentIndex(8)
         self.tabWidget_4.setCurrentIndex(0)
+        self.update_icons(8)
 
     def get_dashboard_data(self):
 

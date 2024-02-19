@@ -7,5 +7,12 @@
     <file>Icons/Settings.png</file>
     <file>Icons/Today.png</file>
     <file>Icons/History.png</file>
+    <file>Icons/Reports.png</file>
+    <file>Icons/Books_selected.png</file>
+    <file>Icons/Dashboard_selected.png</file>
+    <file>Icons/Clients_selected.png</file>
+    <file>Icons/Settings_selected.png</file>
+    <file>Icons/Today_selected.png</file>
+    <file>Icons/History_selected.png</file>
 </qresource>
 </RCC>
