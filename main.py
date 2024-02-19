@@ -42,7 +42,7 @@ class Main(QMainWindow,MainUi):
 
 
     def DB_Connect(self):
-        self.db = MySQLdb.connect(user="root",password="root",host="localhost",db="library")
+        self.db = MySQLdb.connect(user="root",password="",host="localhost",db="library")
         self.cur = self.db.cursor()
 
 
