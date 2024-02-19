@@ -6,7 +6,7 @@ install requirements.txt
 **then** <br>
 create *library* database and import the Database.sql File to your MySQL (don't forget to change the credentials of MySQL in main.py file )<br>
 **then** <br>
-run `pyrcc5 icons.qrc -o icons_rc.py` command before running the Project <br>
+run `pyrcc5 icons.qrc -o icons_rc.py` command before running the Project (used to convert icons to python based file) <br>
 **then** <br>
 run `python main.py` command to start the project
 <br><br>
