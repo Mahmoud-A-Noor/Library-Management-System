@@ -15,41 +15,46 @@ username : admin <br>
 password : admin
 
 
+
 ### Login
-![Screenshot 2024-02-19 092359](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/8d8bfe68-1c9a-4df0-8dc8-9c64b13af7ae)
+![Screenshot 2024-02-19 112119](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/6d84086b-135c-42be-b44f-e56bb468e28a)
+
 
 ### Today
-![Screenshot 2024-02-19 092608](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/d627c7fe-ef70-421f-83f0-16c095a3fd40)
+![Screenshot 2024-02-19 112137](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/993171e0-2613-4cda-8c87-8551b99529cd)
+
 
 ### Books
-![Screenshot 2024-02-19 092621](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/901c50a4-9f26-4755-842d-0e2deee37108)
-![Screenshot 2024-02-19 092630](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/c0e2d740-b203-436b-a22e-c3b5157f66ba)
-![Screenshot 2024-02-19 092641](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/f2698293-2cd6-4fb9-a8da-60b66b741b32)
+![Screenshot 2024-02-19 112150](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/9716a562-2aac-419e-921e-c433285de22c)
+![Screenshot 2024-02-19 112157](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/34a8382c-6741-46b6-9761-f61c912a52a1)
+![Screenshot 2024-02-19 112207](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/9ccb4e6d-724c-4ab1-bb42-6f11bb3e2512)
+
 
 ### Clients
-![Screenshot 2024-02-19 092733](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/4d8a63f2-5c72-4f4a-bbaf-29729417b777)
-![Screenshot 2024-02-19 092748](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/310af2cf-3d91-4d32-b206-6d999de3e0e5)
-![Screenshot 2024-02-19 092802](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/b6e02d44-628c-4ccd-b05c-e88f3ea86234)
+![Screenshot 2024-02-19 112220](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/03842df1-323c-4820-bc7f-2b266d1326d9)
+![Screenshot 2024-02-19 112232](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/b0cb49ce-7528-4757-8181-a4cea7e51e62)
+![Screenshot 2024-02-19 112240](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/d9612e69-35f2-480a-a6c5-d8d05177ad55)
+
 
 ### Dashboard
-![Screenshot 2024-02-19 092820](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/b6a7e609-b3fe-41e3-82f8-381cb34476e6)
+![Screenshot 2024-02-19 112249](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/1371892d-10da-48d3-90b2-e0e56e735b95)
+
 
 ### History
-![Screenshot 2024-02-19 092831](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/02c2873f-7f71-4acd-ad34-21174341e944)
+![Screenshot 2024-02-19 112258](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/1d1cf27a-0f6f-4d73-addf-651b24e1e013)
+
 
 ### Reports
-![Screenshot 2024-02-19 092843](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/48d25ca1-84d7-4ba0-ba52-5efc6817154b)
-![Screenshot 2024-02-19 092855](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/cd490813-cbd2-42ca-897f-fa3ca56ac8a7)
-![Screenshot 2024-02-19 092905](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/40a8cfce-1c96-47e7-82c6-e06df3ce5943)
+![Screenshot 2024-02-19 112306](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/8b97ced9-7499-4dd8-a140-5c33970e7486)
+![Screenshot 2024-02-19 112315](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/9dcdf9f2-29ca-4ef3-8f76-22276e74d164)
+![Screenshot 2024-02-19 112324](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/b51fd2f0-0c41-4493-a850-8dce92c5b229)
+
 
 ### Settings
-![Screenshot 2024-02-19 092918](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/8dff9899-5dc0-4bc5-928d-303a5846d9da)
-![Screenshot 2024-02-19 092927](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/117a243b-ea06-4e1f-99d9-0bb602dd3ea6)
-![Screenshot 2024-02-19 092943](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/211b1968-c5e6-47f7-ad86-d5ac4babb7ff)
-![Screenshot 2024-02-19 092955](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/2d17a2f0-be73-42cb-9e62-547015bc545b)
-
-
-
+![Screenshot 2024-02-19 112333](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/8a459d79-400a-4220-aeee-16ae1482be23)
+![Screenshot 2024-02-19 112342](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/935886ed-376b-40bd-a551-62e6a725034e)
+![Screenshot 2024-02-19 112349](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/44f16d9c-cb81-49ae-bd83-1421e242ce5f)
+![Screenshot 2024-02-19 112358](https://github.com/Mahmoud-A-Noor/Library-Management-System/assets/59361888/4ed37706-1ece-48ab-9a32-fa2a44203a74)
 
 
 
